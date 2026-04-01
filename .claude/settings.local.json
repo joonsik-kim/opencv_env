@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Users/kim joonsik/opencv_env/Scripts/python.exe\" 01_basic_image_ops/generate_dummy_pcb.py)",
+      "Bash(\"/c/Users/kim joonsik/opencv_env/Scripts/python.exe\" 01_basic_image_ops/basic_image_ops.py)",
+      "Bash(\"c:/Users/kim joonsik/opencv_env/Scripts/python.exe\" -c \"import cv2; print\\('OpenCV:', cv2.__version__\\)\")",
+      "Bash(\"c:/Users/kim joonsik/opencv_env/Scripts/python.exe\" -c \"import json; nb = json.load\\(open\\('c:/Users/kim joonsik/opencv_env/W1_image_basics/W1D1_image_loading.ipynb'\\)\\); print\\(f'셀 수: {len\\(nb[\\\\\"cells\\\\\"]\\)}'\\); [print\\(f'  [{i}] {c[\\\\\"cell_type\\\\\"]:8s} | {c[\\\\\"source\\\\\"][:50]}...'\\) for i, c in enumerate\\(nb['cells']\\)]\")",
+      "Bash('c:/Users/kim joonsik/opencv_env/Scripts/python.exe' -c ':*)",
+      "Bash(mkdir -p archive)",
+      "Bash(mv \"학습환경_세팅가이드.md\" archive/)"
+    ]
+  }
+}
